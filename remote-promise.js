@@ -1,5 +1,4 @@
 'use strict';
-const { stat } = require('fs');
 const http = require('http');
 const fetchResult = (url) => {
   return new Promise((resolve, reject) => {
